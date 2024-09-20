@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+ 
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #2aaccf;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse:collapse;
+}
+
+table, th, td {
+    border: 1px solid #170385;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.main-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    border-radius: 10px;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2aaccf;
+}
+
+footer {
+    background-color:#000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.login-page {
+    background-image: url('ryan-ancill-P1HjUfLi7P8-unsplash.jpg'); 
+    /*ачто на фон поставить*/
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: #ffffffe6;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.login-form {
+    text-align: center;
+}
+
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

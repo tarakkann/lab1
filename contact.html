@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь - Вика Внукова</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html#about">Обо мне</a></li>
+                <li><a href="index.html#projects">Мои проекты</a></li>
+                <li><a href="index.html#photo">Галерея</a></li>
+                <li><a href="login.html">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="section">
+        <h2>Обратная связь</h2>
+        <form action="/submit" method="post">
+            <label for="name">ФИО:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Откуда узнали о сайте?</p>
+            <label><input type="radio" name="source" value="друзья" required> Друзья</label>
+            <label><input type="radio" name="source" value="письма"> Письма</label>
+            <label><input type="radio" name="source" value="реклама"> Реклама на асфальте</label>
+
+            <label for="type">Тип обращения:</label>
+            <select id="type" name="type">
+                <option value="предложение">Предложение</option>
+                <option value="жалоба">Жалоба</option>
+            </select>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <label for="file">Вложения:</label>
+            <input type="file" id="file" name="file">
+
+            <label><input type="checkbox" name="consent" required> Даю согласие на обработку персональных данных и деанон</label>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>©2024 Вика Внукова</p>
+        <p>Email для связи: nocontact@itsmyemailsorry.com</p>
+    </footer>
+</body>
+</html>
